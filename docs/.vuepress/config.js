@@ -3,11 +3,22 @@ module.exports = {
     sidebar: [
       '/',
       {
-        title: '設計・命名規則について',
+        title: '基本ルール',
         collapsable: false,
         children: [
-          '/about-css-design',
-          '/css-class-naming'
+          '/base/common-rules',
+          '/base/html-rules',
+          '/base/css-rules',
+          '/base/css-property-order'
+        ]
+      },
+      {
+        title: 'CSS設計',
+        collapsable: false,
+        children: [
+          '/css/about-css-design',
+          '/css/css-class-naming-rules',
+          '/css/css-class-naming-example',
         ]
       }
     ]

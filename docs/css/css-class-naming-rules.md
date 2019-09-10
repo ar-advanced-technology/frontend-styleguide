@@ -5,14 +5,13 @@ meta:
     content: ベースとする思想の説明
 ---
 
-## OOCSSの思想をベースに
+## OOCSSをベースに
 
-OOCSSとは「オブジェクト指向」の概念を取り入れた設計思想のことです。<br>
-以下の2つのルール
+OOCSSとは「オブジェクト指向」の概念を取り入れた設計思想のこと。<br>
+ルールは２つ。
 
 * 基本構造と見た目を分ける
 * 入れ物と中身を分ける
-* マルチクラス
 
 ```html
 <button class="button">ボタン</button>
@@ -20,6 +19,7 @@ OOCSSとは「オブジェクト指向」の概念を取り入れた設計思想
 <button clsss="button is-small">ボタン</button>
 ```
 ```scss
+// ボタンの基本構造
 .button {
   display: inline-block;
   padding: 10px;
@@ -29,10 +29,10 @@ OOCSSとは「オブジェクト指向」の概念を取り入れた設計思想
   background-color: #000;
   border-radius: 4px;
 
+  // 見た目を変えるスタイル
   &.is-primary {
     background-color: #9FC43A;
   }
-
   &.is-small {
     font-size: 0.75rem;
   }
@@ -40,12 +40,3 @@ OOCSSとは「オブジェクト指向」の概念を取り入れた設計思想
 ```
 
 参考： [Bootstrap](https://getbootstrap.com/) 、 [Bulma](https://bulma.io/)
-
-## 
-
-
-## クラス名はコンテンツ内容に依存しすぎない
-依存しすぎると再利用性が低下する。
-
-
-## クラス名に用いる単語例

@@ -1,5 +1,5 @@
 ---
-title: CSS設計について
+title: 設計の重要性
 meta:
   - name: description
     content: 設計や命名規則が何故大事なのかの説明
