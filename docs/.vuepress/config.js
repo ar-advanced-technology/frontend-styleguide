@@ -17,6 +17,7 @@ module.exports = {
         collapsable: false,
         children: [
           '/css/about-css-design',
+          '/css/css-class-methodologies',
           '/css/css-class-naming-rules',
           '/css/css-class-naming-example',
         ]
