@@ -1,11 +1,11 @@
 ---
-title: クラスの命名ルール
+title: 設計手順
 meta:
   - name: description
-    content: クラスの命名ルール
+    content: 
 ---
 
-# クラスの命名ルール
+# 設計手順
 
 ## コンポーネントの機能・役割を元にシンプルに命名
 

@@ -13,11 +13,12 @@ module.exports = {
         ]
       },
       {
-        title: 'CSS設計',
+        title: 'HTML/CSS設計',
         collapsable: false,
         children: [
           //'/css/about-css-design',
           '/css/css-class-methodologies',
+          '/css/css-class-design-example',
           '/css/css-class-naming-rules',
           '/css/css-class-naming-example',
         ]
