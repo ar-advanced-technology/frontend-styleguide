@@ -121,8 +121,8 @@ meta:
 </body>
 ```
 
-### javascript
-javascriptでDOMの取得・操作（jsフック）を行う要素には、専用のクラス名を付与します。   
+### JavaScript
+JavaScriptでDOMの取得・操作（jsフック）を行う要素には、専用のクラス名を付与します。   
 操作用のクラスには ```js-``` プレフィックスを付与します。  
 
 ```html

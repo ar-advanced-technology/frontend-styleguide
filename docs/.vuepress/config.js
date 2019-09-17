@@ -17,10 +17,17 @@ module.exports = {
         collapsable: false,
         children: [
           //'/css/about-css-design',
-          '/css/css-class-methodologies',
-          '/css/css-class-design-example',
-          '/css/css-class-naming-rules',
-          '/css/css-class-naming-example',
+          '/architecture/css-class-methodologies',
+          '/architecture/css-class-design-example',
+          '/architecture/css-class-naming-rules',
+          '/architecture/css-class-naming-example'
+        ]
+      },
+      {
+        title: 'Sass',
+        collapsable: false,
+        children: [
+          '/architecture/css-directory-structure'
         ]
       }
     ]
