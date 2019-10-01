@@ -1,5 +1,5 @@
 {
-  "name": "air-cooding-rule",
+  "name": "ari-coding-rule",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,7 @@
     "vuepress": "^1.0.3"
   },
   "dependencies": {
-    "bulma": "^0.7.5"
+    "bulma": "^0.7.5",
+    "markdown-it-footnote": "^3.0.2"
   }
 }
