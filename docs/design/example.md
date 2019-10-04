@@ -1,17 +1,21 @@
 # クラス設計例
 
+:::warning
+このページは全体的にTODOです。説明を追加する必要あり。
+:::
+
 ## レイアウト
 
 ### 1カラム
 
 ```html
-
+<!-- TODO -->
 ```
 
 ### 2カラム
 
 ```html
-
+<!-- TODO -->
 ```
 
 ## コンポーネント
@@ -137,11 +141,11 @@
 <table class="table is-narrow is-striped">...</table>
 ```
 
-https://www.hypertextcandy.com/table-with-fixed-width-column
-
 ```html
 <td class"is-collapsing"></td>
 ```
+
+https://www.hypertextcandy.com/table-with-fixed-width-column
 
 ### フォーム
 

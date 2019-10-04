@@ -1,5 +1,8 @@
+const moment = require('moment')
+
 module.exports = {
   title: 'Frontend Primer',
+  base: process.env.NODE_ENV === 'production' ? '/coding-guideline/' : '/',
   markdown: {
     lineNumbers: true,
     extendMarkdown: md => {
@@ -28,5 +31,10 @@ module.exports = {
     },
     sidebarDepth: 2,
     lastUpdated: 'Last Updated'
-  }
+  },
+  plugins: [
+    ['@vuepress/last-updated', {
+      transformer: timestamp => moment(timestamp).format('YYYY/MM/DD H:m:s')
+    }]
+  ]
 }
