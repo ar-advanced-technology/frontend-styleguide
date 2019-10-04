@@ -1,8 +1,8 @@
 const moment = require('moment')
 
 module.exports = {
-  title: 'Frontend Primer',
-  base: process.env.NODE_ENV === 'production' ? '/coding-guideline/' : '/',
+  title: 'Frontend Primer（α版）',
+  base: process.env.NODE_ENV === 'preview' ? '/coding-guideline/' : '/',
   markdown: {
     lineNumbers: true,
     extendMarkdown: md => {
