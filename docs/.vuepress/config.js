@@ -1,7 +1,7 @@
 const moment = require('moment')
 
 module.exports = {
-  title: 'Frontend Primer（α版）',
+  title: 'Frontend Styleguide',
   base: process.env.NODE_ENV === 'preview' ? '/coding-guideline/' : '/',
   markdown: {
     lineNumbers: true,
@@ -10,6 +10,7 @@ module.exports = {
     }
   },
   themeConfig: {
+    logo: '/images/logo.png',
     search: false,
     nav: [
       { text: '開発ガイド', link: '/design/' },
