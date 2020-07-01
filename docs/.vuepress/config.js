@@ -14,7 +14,8 @@ module.exports = {
     search: false,
     nav: [
       { text: '開発ガイド', link: '/design/' },
-      { text: 'コーディング規約', link: '/rules/' }
+      { text: 'コーディング規約', link: '/rules/' },
+      { text: 'コンポーネント一覧', link: '/components/' }
     ],
     sidebar: {
       '/design/': [
@@ -28,6 +29,20 @@ module.exports = {
         '',
         'structure',
         'stylelint'
+      ],
+      '/components/': [
+        '',
+        'button',
+        'table',
+        'card',
+        'headline',
+        'list',
+        'form',
+        'navbar',
+        'avatar',
+        'pagination',
+        'breadcrumbs',
+        'modal'
       ]
     },
     sidebarDepth: 2,
