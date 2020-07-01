@@ -1,9 +1,10 @@
 {
-  "name": "ari-coding-rule",
+  "private" : true,
+  "name": "frontend-styleguide",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "license": "MIT",
+  "description": "Frontend styleguide",
+  "license": "UNLICENSED",
+  "homepage": "https://ar-advanced-technology.github.io/frontend-styleguide/",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
