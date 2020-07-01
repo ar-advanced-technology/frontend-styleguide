@@ -1,8 +1,10 @@
+const path = require('path')
 const moment = require('moment')
 
 module.exports = {
+  dest: path.join(__dirname, '../../docs'),
   title: 'Frontend Styleguide',
-  base: process.env.NODE_ENV === 'preview' ? '/coding-guideline/' : '/',
+  base: '/frontend-styleguide/',
   markdown: {
     lineNumbers: true,
     extendMarkdown: md => {
@@ -15,7 +17,7 @@ module.exports = {
     nav: [
       { text: '開発ガイド', link: '/design/' },
       { text: 'コーディング規約', link: '/rules/' },
-      { text: 'コンポーネント一覧', link: '/components/' }
+      { text: 'コンポーネントサンプル', link: '/components/button' }
     ],
     sidebar: {
       '/design/': [
@@ -31,18 +33,23 @@ module.exports = {
         'stylelint'
       ],
       '/components/': [
-        '',
-        'button',
-        'table',
-        'card',
-        'headline',
-        'list',
-        'form',
-        'navbar',
-        'avatar',
-        'pagination',
-        'breadcrumbs',
-        'modal'
+        {
+          title: 'コンポーネントサンプル',
+          collapsable: false,
+          children: [
+            '/components/button',
+            '/components/table',
+            '/components/card',
+            '/components/headline',
+            '/components/list',
+            '/components/form',
+            '/components/navbar',
+            '/components/avatar',
+            '/components/pagination',
+            '/components/breadcrumbs',
+            '/components/modal',
+          ],
+        }
       ]
     },
     sidebarDepth: 2,
