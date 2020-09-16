@@ -24,7 +24,6 @@ module.exports = {
         '',
         'process',
         'naming',
-        'example',
         'anti-patterns'
       ],
       '/rules/': [
